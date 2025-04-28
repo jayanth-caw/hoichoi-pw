@@ -28,7 +28,6 @@ test('Home to Login Page Navigation', async ({ hoichoiHomePage }) => {
   await expect(hoichoiHomePage.googleLoginButtonLocator()).toBeVisible();
   await expect(hoichoiHomePage.appleLoginButtonLocator()).toBeVisible();
   await expect(hoichoiHomePage.emailLoginButtonLocator()).toBeVisible();
-  
 });
 
 
